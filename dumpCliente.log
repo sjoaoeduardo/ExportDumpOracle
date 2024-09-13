@@ -4,7 +4,7 @@ Export: Release 11.2.0.4.0 - Production on Tue Mar 21 09:03:56 2023
 Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
 ;;; 
 Connected to: Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
-Starting "SYS"."SYS_EXPORT_SCHEMA_01":  "/******** AS SYSDBA" DIRECTORY=primarca SCHEMAS=NBS DUMPFILE=NbsCliente.dmp logfile=NbsCliente.log parfile=clientes.par 
+Starting "SYS"."SYS_EXPORT_SCHEMA_01":  "/******** AS SYSDBA" DIRECTORY=/home/oracle/dump SCHEMAS=NBS DUMPFILE=NbsCliente.dmp logfile=NbsCliente.log parfile=clientes.par 
 Estimate in progress using BLOCKS method...
 Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
 Total estimation using BLOCKS method: 882.5 MB
