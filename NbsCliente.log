@@ -1,0 +1,30 @@
+;;; 
+Export: Release 11.2.0.4.0 - Production on Tue Mar 21 09:03:56 2023
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+Starting "SYS"."SYS_EXPORT_SCHEMA_01":  "/******** AS SYSDBA" DIRECTORY=primarca SCHEMAS=NBS DUMPFILE=NbsCliente.dmp logfile=NbsCliente.log parfile=clientes.par 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 882.5 MB
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/FUNCTIONAL_INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/FUNCTIONAL_INDEX/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "NBS"."TABELA1"                                  4.917 MB   10381 rows
+. . exported "NBS"."TABELA2"                      4.716 MB   23872 rows
+. . exported "NBS"."TABELA3"                         3.076 MB   13382 rows
+. . exported "NBS"."TABELA4"                           1.277 MB    3032 rows
+Master table "SYS"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYS.SYS_EXPORT_SCHEMA_01 is:
+  /home/oracle/NbsCliente.dmp
+Job "SYS"."SYS_EXPORT_SCHEMA_01" successfully completed at Tue Mar 21 09:04:08 2023 elapsed 0 00:00:12

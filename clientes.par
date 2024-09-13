@@ -1,0 +1,14 @@
+include=TABLE:"IN ('TABELA1','TABELA2','TABELA3', 'TABELA4')"
+
+#query=OS:"WHERE cod_cliente in ( select cod_cliente from TABELA1 where cod_empresa=\'12\' and data_cadastro >= to_date('15 06 2018','dd mm yyyy') and cod_cidades='88412')"
+
+query=TABELA1:"WHERE numero_os >=\'41890\' and numero_os <=\'52270\' and cod_empresa=\'12\'"
+
+query=TABELA2:"WHERE cod_cliente in ( select cod_cliente from CLIENTE_DIVERSO where cod_empresa=\'12\' and data_cadastro >= to_date('15 06 2018','dd mm yyyy') and cod_cidades='88412')"
+
+query=TABELA3:"WHERE numero_os in ( select numero_os from os where numero_os >=\'41890\' and numero_os <=\'52270\' and cod_empresa=\'12\')"
+
+#query=OS_DADOS_VEICULOS:"WHERE numero_os in ( select numero_os from os where cod_empresa=\'12\' and data_emissao >= to_date('15 06 2018','dd mm yyyy'))"
+
+query=TABELA4:"WHERE cod_cliente in ( select cod_cliente from CLIENTE_DIVERSO where cod_empresa=\'12\' and data_cadastro >= to_date('15 06 2018','dd mm yyyy') and cod_cidades='88412')"
+
